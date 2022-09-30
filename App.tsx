@@ -35,7 +35,7 @@ const Section: React.FC<
   }>
 > = ({children, title}) => {
   const isDarkMode = useColorScheme() === 'dark';
-  
+
   React.useEffect(() => { 
     FullStory.identify('user123');
   }, []);
